@@ -1,0 +1,74 @@
+.p-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin: 20px 10px;
+  width: 80%;
+}
+.p-card {
+  padding: 12px 16px;
+  flex: 8;
+  border: 1px solid #2a3442;
+  border-radius: 12px;
+}
+
+.p-up-down {
+  height: 100px;
+  flex: 2;
+}
+
+.p-title {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.p-address {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #635fab;
+}
+
+.p-des {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+
+  margin: 10px 0;
+}
+
+.p-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.p-time {
+  color: #757e8b;
+}
+
+.p-up-down {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p-up-down button {
+    font-size: 32px;
+    background: transparent;
+    border-radius: 60px;
+    padding: 4px;
+    color: white;
+    height: 50px;
+    width: 50px;
+}
+
+#p-vote {
+    font-size: 26px;
+}

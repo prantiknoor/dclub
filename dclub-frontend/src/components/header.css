@@ -1,9 +1,13 @@
 .header {
+  overflow: hidden;
+  position: fixed;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100px;
-  background-color: #2a3442;
+  height: 80px;
+  width: 100%;
+  background: #0D172B;
+  border: 2px solid #2A3442;
 }
 
 .content {
@@ -16,7 +20,7 @@
 }
 
 .logo {
-  font-family: "Oxygen";
+  font-family: "Rubik";
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
