@@ -21,7 +21,16 @@ code {
   justify-content: center;
 }
 
+input  {
+  border: 1px solid #232D3C;
+  height: 50px;
+  border-radius: 12px;
+  color: white;
+  background: transparent;
+}
+
 .blue-button {
+  cursor: pointer;
   font-family: "Fira Code";
   font-style: normal;
   font-weight: 700;
