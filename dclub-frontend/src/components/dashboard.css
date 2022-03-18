@@ -1,0 +1,40 @@
+#inp {
+  flex: auto;
+  border-radius: 12px 0px 0px 12px;
+  box-sizing: border-box;
+}
+
+.d-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.b-container {
+  display: flex;
+  width: 80%;
+  margin: 10px 0;
+  justify-content: center;
+}
+
+#submit {
+  border-radius: 0px 12px 12px 0px;
+}
+
+.p-creation-card {
+    width: 80%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.p-creation-card input {
+    width: 95%;
+    margin-top: 10px;
+    padding: 0 10px;
+}
+
+.p-creation-card button {
+    margin-top: 10px;
+}
