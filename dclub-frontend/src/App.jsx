@@ -1,15 +1,24 @@
-import './App.css';
-import Header from './components/Header';
-import ProposalCard from './components/ProposalCard'
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import "./App.css";
+import Header from "./components/Header";
+import Dashboard from './components/Dashboard';
+import ProposalCard from "./components/ProposalCard";
 
 function App() {
   return (
-    <div className="App">
+    <Router>
+      <div className="App">
       <Header></Header>
-      <div className="app-body">
-        <ProposalCard></ProposalCard>
-      </div>
+      <Switch>
+        <Route exact path="/">
+          <ProposalCard/>
+        </Route>
+        <Route path="/dashboard">
+          <Dashboard/>
+        </Route>
+      </Switch>
     </div>
+    </Router>
   );
 }
 
