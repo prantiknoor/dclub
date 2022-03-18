@@ -9,11 +9,12 @@ function App() {
     <Router>
       <div className="App">
       <Header></Header>
+      <div style={{paddingTop: 90}}></div>
       <Switch>
         <Route exact path="/">
           <ProposalCard/>
         </Route>
-        <Route path="/dashboard">
+        <Route exact path="/dashboard">
           <Dashboard/>
         </Route>
       </Switch>
