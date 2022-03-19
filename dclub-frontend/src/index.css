@@ -30,6 +30,10 @@ input  {
   background: transparent;
 }
 
+.app-body {
+  padding-top: 100px;
+}
+
 .blue-button {
   cursor: pointer;
   font-family: "Fira Code";

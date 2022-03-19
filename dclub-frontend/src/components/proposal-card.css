@@ -1,19 +1,19 @@
 .p-container {
   display: flex;
   align-items: center;
+  justify-content: start;
   flex-direction: row;
   margin: 20px 10px;
   width: 80%;
 }
 .p-card {
   padding: 12px 16px;
-  flex: 8;
+  flex: 10;
   border: 1px solid #2a3442;
   border-radius: 12px;
 }
 
 .p-up-down {
-  height: 100px;
   flex: 2;
 }
 
@@ -60,13 +60,14 @@
 }
 
 .p-up-down button {
-    font-size: 32px;
+  cursor: pointer;
+    font-size: 26px;
     background: transparent;
     border-radius: 60px;
-    padding: 4px;
+    padding: 2px;
     color: white;
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
 }
 
 #p-vote {
